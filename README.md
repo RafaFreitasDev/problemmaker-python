@@ -1,5 +1,11 @@
 # problemmaker-python
-Faz 3 contas de multiplicação e 3 contas de divisão e manda os problemas para o celular de minha filha, e manda as respostas para o meu celular. Tudo via webwhatsapp.
+Tenho uma filha de 9 anos, e todos os dias passo contas de matemática para o desenvolvimento do seu raciocínio e lógica. Essas contas são desenvolvidas em minha cabeça. Com o intuito de facilitar o processo, resolvi desenvolver a seguinte aplicação.
+
+O programa gera 3 contas de multiplicação e 3 contas de divisão aleatoriamente, enviando os problemas para o celular da minha filha e as respostas para o meu celular, tudo via WhatsApp Web.
+
+Estabeleci os tamanhos dos números gerados, pois ela já enfrentava esse tipo de dificuldade e não queria que fosse aleatório demais.
+
+Os nomes dos contatos buscados no WhatsApp Web foram colocados em variáveis de ambiente para que a aplicação possa ser reaproveitada por outros desenvolvedores ou pais interessados.
 
 ## Pré-requisitos
 
