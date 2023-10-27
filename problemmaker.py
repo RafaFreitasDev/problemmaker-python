@@ -7,7 +7,6 @@ class ProblemMaker:
         self.fazer_respostas()
         self.fazer_mensagens()
         
-    
     def fazer_numeros(self):
         self.n1_dezena = random.randint(10,99)
         self.n2_dezena = random.randint(10,99)
@@ -50,28 +49,6 @@ class ProblemMaker:
         self.resposta6 = int(self.n11_milhaao/self.n12_unidade)
         self.resto6 = self.n11_milhaao%self.n12_unidade
 
-        # print(self.problema1)
-        # print(self.resposta1)
-        # print()
-        # print(self.problema2)
-        # print(self.resposta2)
-        # print()
-        # print(self.problema3)
-        # print(self.resposta3)
-        # print()
-        # print(self.problema4)
-        # print(self.resposta4)
-        # print(self.resto4)
-        # print()
-        # print(self.problema5)
-        # print(self.resposta5)
-        # print(self.resto5)
-        # print()
-        # print(self.problema6)
-        # print(self.resposta6)
-        # print(self.resto6)
-        # print()
-
     def fazer_mensagens(self):
         self.msn_problemas = f'QUESTÃO 1:\n{self.problema1}\n\nQUESTÃO 2:\n{self.problema2}\n\nQUESTÃO 3:\n{self.problema3}\n\nQUESTÃO 4:\n{self.problema4}\n\nQUESTÃO 5:\n{self.problema5}\n\nQUESTÃO 6:\n{self.problema6}\n'
 
@@ -80,12 +57,6 @@ class ProblemMaker:
         self.msn_resp_divisao1 = f'Q4:\nResult:{self.resposta4}; Resto:{self.resto4}\n'
         self.msn_resp_divisao2 = f'Q5:\nResult:{self.resposta5}; Resto:{self.resto5}\n'
         self.msn_resp_divisao3 = f'Q6:\nResult:{self.resposta6}; Resto:{self.resto6}\n'
-
-        # print(self.msn_problemas)
-        # print(self.msn_respostas_multiplicacao)
-        # print(self.msn_resp_divisao1)
-        # print(self.msn_resp_divisao2)
-        # print(self.msn_resp_divisao3)
 
         return [self.msn_problemas,self.msn_respostas_multiplicacao,self.msn_resp_divisao1,self.msn_resp_divisao2,self.msn_resp_divisao3]
 
