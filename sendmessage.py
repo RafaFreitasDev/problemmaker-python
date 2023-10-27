@@ -19,11 +19,11 @@ class SendMessage:
         self.driver = webdriver.Chrome(service=service)
         link = 'https://web.whatsapp.com'
         self.driver.get(link)
-        sleep(15)
+        sleep(25)
 
     def enviar_problemas(self, msn_problemas):
         CONTATO = os.getenv("CONTACT")
-        sleep(5)
+        sleep(10)
 
         campo_buscar_contato = self.driver.find_elements(By.XPATH, '//p[@class="selectable-text copyable-text iq0m558w g0rxnol2"]')[0]
         campo_buscar_contato.send_keys(CONTATO)
