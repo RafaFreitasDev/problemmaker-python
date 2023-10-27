@@ -75,7 +75,7 @@ class ProblemMaker:
     def fazer_mensagens(self):
         self.msn_problemas = f'QUESTÃO 1:\n{self.problema1}\n\nQUESTÃO 2:\n{self.problema2}\n\nQUESTÃO 3:\n{self.problema3}\n\nQUESTÃO 4:\n{self.problema4}\n\nQUESTÃO 5:\n{self.problema5}\n\nQUESTÃO 6:\n{self.problema6}\n'
 
-        self.msn_respostas_multiplicacao = f'Q1:{self.resposta1}\nQ2:{self.resposta2}\nQ3:{self.resposta3}\n'
+        self.msn_respostas_multiplicacao = f'Q1: {self.resposta1}\nQ2: {self.resposta2}\nQ3: {self.resposta3}\n'
 
         self.msn_resp_divisao1 = f'Q4:\nResult:{self.resposta4}; Resto:{self.resto4}\n'
         self.msn_resp_divisao2 = f'Q5:\nResult:{self.resposta5}; Resto:{self.resto5}\n'
